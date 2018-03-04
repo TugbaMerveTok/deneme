@@ -1,0 +1,15 @@
+x=int(input("finansman gelirini giriniz."))
+y=int(input("pazar gelirini giriniz."))
+z=int(input("kira gelirini giriniz."))
+t=x+y+z
+a=int(input("ücret giriniz."))
+b=int(input("finansman giderini giriniz."))
+c=int(input("pazar giderini giriniz."))
+d=int(input("kira giderini giriniz."))
+e=int(input("muhasebe giderini giriniz."))
+u=a+b+c+d+e
+k=t-u
+if(k<1000):
+    print("şirket kar etmiyor.")
+else:
+    print("şirket kar ediyor.")
