@@ -1,7 +1,0 @@
-def adamBasiCiroHesapla(x,y):
-    t=z/25
-    return t
-x=int(input("satış miktarını giriniz."))
-y=int(input("birim satış fiyatını giriniz."))
-z=x*y
-print(adamBasiCiroHesapla(x,y))
