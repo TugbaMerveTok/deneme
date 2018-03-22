@@ -44,7 +44,7 @@ a=2520
 i=22#ay
 while(haftalikMesaiSuresi!=22):
     haftalikMesaiSuresi=int(input("mesai süresini giriniz:"))
-    if (haftalikMesaiSuresi==22):
+    if (haftalikMesaiSuresi>=22):
         print("Aylık maaşınız hesaplanamaz")
     else:
         haftalikMesaiSuresi=int(haftalikMesaiSuresi)
