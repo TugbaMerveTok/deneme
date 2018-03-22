@@ -2,7 +2,7 @@
 sMiktari=500
 bSatisFiyati=20
 ciro=5000
-i=1
+i=0
 while True:
     sMiktari=sMiktari+200
     bSatisFiyati=bSatisFiyati+10
@@ -15,7 +15,7 @@ while True:
 stkMiktari=10000
 satinAlinanUrun=100
 satilanUrun=500
-i=1
+i=0
 while True:
     stkMiktari=stkMiktari+(satinAlinanUrun-satilanUrun)
     i=i+1
